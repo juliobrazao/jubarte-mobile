@@ -1,0 +1,8 @@
+{
+    "name": "JubarteUI",
+    "short_name": "JubarteUI",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#004BA8",
+    "description": "A NodeJS front-end preset for PWAs"   
+  }

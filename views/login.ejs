@@ -1,0 +1,38 @@
+<%-include('presets/head')%>
+<!-- Content -->
+<div class="d-flex align-items-center justify-content-center h-100">
+    <div class="container-fluid">
+        <div class="my-3 text-center">
+          <h1 style="margin:3.5rem;font-weight:800;font-size:3.5rem!important">
+              <strong>
+                  <%=title%>
+              </strong>
+          </h1>
+        </div>
+
+        <div class="my-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control form-control-lg" name="username" id="username">
+        </div>
+      
+        <div class="my-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control form-control-lg" name="password" id="password">
+        </div>
+
+        <div class="my-3">
+            <button class="btn btn-lg btn-primary w-100">
+                Login
+            </button>
+        </div>
+
+        <div class="my-3">
+            <button class="btn btn-lg btn-secondary w-100">
+                Sign Up
+            </button>
+        </div>
+    </div>
+</div>
+<!-- Content -->
+<%-include('presets/footer_login')%>
+<%-include('presets/foot')%>

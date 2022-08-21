@@ -4,6 +4,14 @@ const port = 9800
 
 app.route('/')
     .get((req, res) => {
+        res.render('login', {
+            title: setup.name,
+            author: setup.owner
+        })
+    })
+
+app.route('/main')
+    .get((req, res) => {
         res.render('home', {
             title: setup.name
         })
