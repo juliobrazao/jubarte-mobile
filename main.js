@@ -5,8 +5,7 @@ const port = 9800
 app.route('/')
     .get((req, res) => {
         res.render('home', {
-            title: setup.name,
-            main_color: setup.colorScheme.main_dark
+            title: setup.name
         })
     })
 
