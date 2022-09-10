@@ -1,6 +1,6 @@
 const app = require('./config/server').server
 const setup = require('./config/setup').info
-const port = 9800
+const port = 80
 
 app.route('/')
     .get((req, res) => {
