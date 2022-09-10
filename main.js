@@ -1,6 +1,6 @@
 const app = require('./config/server').server
 const setup = require('./config/setup').info
-const port = 80
+const port = process.env.PORT || 80
 
 app.route('/')
     .get((req, res) => {
